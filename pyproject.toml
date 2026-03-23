@@ -15,5 +15,5 @@ packages = [
 ]
 
 [build-system]
-requires = ["hatching"]
-build-backend = "hatching.build"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
