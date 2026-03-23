@@ -1,0 +1,19 @@
+[project]
+name = "uv_test_package"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "burstknight", email = "burstknight@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = []
+
+[tool.hatch.build.targets.wheel]
+packages = [
+	"src/uv_test_package",
+]
+
+[build-system]
+requires = ["hatching"]
+build-backend = "hatching.build"
